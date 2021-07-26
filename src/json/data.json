@@ -1,0 +1,11 @@
+{
+    "data": [
+        {
+            "description": "Salary",
+            "date": "01-06-2021",
+            "type": 1,
+            "amount": 10000,
+            "balance": 10000
+        }
+    ]
+}
