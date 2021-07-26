@@ -1,19 +1,32 @@
 # income-expenses-vuejs
 
-## Project setup
+## How to run program
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+1. เปิด cmd or terminal แล้วทำการ cd เพื่อไปยัง directory ที่ตัวโปรแกรมอยู่
+2. พิมพ์ npm install แล้วรัน
+3. พิมพ์ npm run serve แล้วรัน
+4. เปิด browser แล้วไปที่  http://localhost:8080/
+5. เมื่อใช้งานเสร็จแล้วและต้องการปิดโปรแกรมให้ไปที่ cmd or terminal เดิมที่ทำมาตั้งแต่แรกและกด Ctrl + c แล้วพิมพ์ Y และกด Enter
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### How to use web application
+```
+1. ใส่ข้อมูลวันที่ลงในช่อง Date โดยมีรูปแบบคือ dd-mm-yyyy
+2. ใส่ข้อมูลคำอธิบายเกี่ยวกับรายรับรายจ่ายนั้นๆลงในช่อง Description
+3. ใส่ข้อมูลยอดเงินลงในช่อง Amount
+4. หากครั้งนั้นเป็นรายรับ ให้กดปุ่ม income
+5. หากครั้งนั้นเป็นรายจ่าย ให้กดปุ่ม expense
+6. เมื่อทำทุกอย่างครบถ้วนให้กด OK ข้อมูลจะไปปรากฎอยู่บนตาราง
+```
+
+### How to read table
+```
+ตารางนี้จะแสดงประวัติทั้งหมดที่ได้กรอกลงไปและข้อมูลที่มีอยู่ในตัวโปรแกรม โดยที่แต่ละช่องมีความหมายดังนี้
+1. No. คือลำดับของรายการที่เรากรอกลงไป
+2. Description คือคำอธิบายของข้อมูลที่ใส่ในแต่ละครั้ง
+3. Date วันที่ที่เราใส่ลงในข้อมูล
+4. Amount จำนวนเงินในครั้งนั้น ๆ 
+    หากค่าเป็น + คือรายรับ
+    หากค่าเป็น - คือรายจ่าย
+5. Balance คือจำนวนเงินรวมทั้งหมด
+```

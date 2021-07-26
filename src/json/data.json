@@ -4,7 +4,14 @@
             "description": "Salary",
             "date": "01-06-2021",
             "type": 1,
-            "amount": 10000,
+            "amount": 12000,
+            "balance": 12000
+        },
+        {
+            "description": "Rental fee",
+            "date": "02-06-2021",
+            "type": -1,
+            "amount": 2000,
             "balance": 10000
         }
     ]

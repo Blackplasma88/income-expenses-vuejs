@@ -4,13 +4,13 @@
 
     <div>
         <div>
-            <label for="date">Date : </label>
-            <input type="text" v-model="form.date">
+            <label for="description">Description :</label>
+            <input type="text" v-model="form.description">
         </div>
         <br>
         <div>
-            <label for="description">Description :</label>
-            <input type="text" v-model="form.description">
+            <label for="date">Date : </label>
+            <input type="text" v-model="form.date">
         </div>
         <br>
         <div>
@@ -20,7 +20,7 @@
         <br>
         <div>
             <button @click="income(1)"> Income </button>
-            <button @click="income(-1)"> Expense </button>
+            <button @click="income(-1)"> Expense </button><br><br>
             <button @click="addOrder">OK</button>
         </div>
         <br><br>
